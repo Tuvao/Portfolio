@@ -1,11 +1,16 @@
 {
-  "homepage": "http://tuvao.github.io/Portfolio",
+  "homepage": ".",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.6.0",
+    "node-sass": "^6.0.0",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "0.9.5"
   },
   "devDependencies": {
@@ -17,6 +22,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "4"
   }
 }

@@ -1,0 +1,30 @@
+.card-view{
+    display: flex;
+}
+
+.card{
+    width: 20em;
+    padding: 1em;
+    margin-right: 2em;
+    margin-bottom:2em;
+}    
+
+
+.image-container-card{
+    height: 13em;
+    overflow: hidden;
+    margin: 1em 0em;
+}
+
+.image-container-card img{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .card-view{
+        display: block;
+    }
+}
