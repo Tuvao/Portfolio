@@ -1,23 +1,24 @@
 import React from 'react';
+import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
-import Badge from 'react-bootstrap/Badge'
 import { useParams } from 'react-router';
-import { cardData } from '../Data/data';
 import "../../CSS/projects.css";
+import { cardData } from '../Data/data';
 
 export const Project = () => {
     let { name } = useParams();
-    console.log(name);
     let project = cardData.find(card => card.url === name);
-    console.log(project);
-    let { id, title, description, src, role, tags, phases, quote, autor } = project;
+    let { title, description, role, tags, phases, quote, autor, period } = project;
     return (
         <div className="container">
             {!project ?
                 <div className="error-not-found">
                     Sorry, I could not find this project!
-                            <Button variant="link" href="/">Go back to home</Button>
+                    <Button variant="link" href="/">Go back to home</Button>
                 </div>
+                :
+                project.url === "dev/music-project" ?
+                "Music Project"
                 :
                 <div>
                     <div className="project-intro">
@@ -34,12 +35,13 @@ export const Project = () => {
                                 )}
                             </p>
                             <p><strong>Role: </strong>{role}</p>
+                            <p><strong>Period: </strong>{period}</p>
                             <p>{description}</p>
                         </div>
-                        {quote? <div className="project-intro-quote">
+                        {quote ? <div className="project-intro-quote">
                             <blockquote cite="https://www.linkedin.com/in/tuva-oedegaard/">"{quote}" - {autor} </blockquote>
                             <small>See full quote on my <a href="https://www.linkedin.com/in/tuva-oedegaard/" target="_blank">LinkedIn profile</a></small>
-                        </div> :""}
+                        </div> : ""}
                     </div>
 
                     {phases.map(({ id, name, description, images, descriptionP2, imagesP2 }) => {
@@ -52,7 +54,7 @@ export const Project = () => {
                                     :
                                     images.map((img, i) => {
                                         return (
-                                            <img className={`images-${id} ${img.class}`} alt={img.alt} src={img.src} key={i}/>
+                                            <img className={`images-${id} ${img.class}`} alt={img.alt} src={img.src} key={i} />
                                         )
                                     })}
                                 {descriptionP2 ? <p className="description-2">{descriptionP2}</p> : ''}

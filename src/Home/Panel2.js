@@ -3,10 +3,6 @@ import "../../CSS/home.css";
 import { cardData } from '../Data/data';
 import { Card } from './Cards/Card';
 
-
-
-
-
 export const Panel2 = () => {
     return (
         <div className="panel-2">

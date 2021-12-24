@@ -8,7 +8,9 @@
     margin-right: 2em;
     margin-bottom:2em;
 }    
-
+.card h2{
+    font-size: 1.5em;
+}
 
 .image-container-card{
     height: 13em;
@@ -19,12 +21,24 @@
 .image-container-card img{
     width: 100%; /* or any custom size */
     height: 100%; 
-    object-fit: cover;
+    object-fit: contain;
+}
+
+.card a{
+    color: #093550;
+    text-decoration: underline;
+}
+.card a:hover{
+    color: #093550;
+    text-decoration: none;
 }
 
 
 @media only screen and (max-width: 1000px) {
     .card-view{
         display: block;
+    }
+    .card{
+        width: 100%;
     }
 }

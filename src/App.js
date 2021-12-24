@@ -1,50 +1,43 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route
+  HashRouter, Route, Switch
 } from "react-router-dom";
+import { Home } from './Home/Home';
+import { Footer } from './Nav/Footer';
 import NavBar from './Nav/NavBar';
-import { Panel1 } from './Home/Panel1';
-import { Panel2 } from './Home/Panel2';
+import { MusicProject } from './Projects/MusicProject/MusicProject';
 import { ProjectMain } from './Projects/ProjectMain';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <HashRouter>
           <NavBar />
 
           <Switch>
-            <Route path="/projects/:name">
-              <ProjectMain />
-            </Route>
-            <Route path="/projects">
-              <ProjectMain />
-            </Route>
-            <Route path="/about-me">
-              <div className="container">
-                About me
-              </div>
-            </Route>
-            <Route path="/">
-              <div className="container">
-                <Panel1 />
-                <Panel2 />
-              </div>
-            </Route>
+            {/* <div className="container"> */}
+              <Route path="/projects/:name" component={ProjectMain} />
+              <Route path="/projects" component={ProjectMain} />
+              <Route path="/dev/music-project" component={MusicProject} />
+              <Route exact path="/" component={Home} />
+            {/* </div> */}
           </Switch>
 
-        </Router>
-        <div>
+          <div>
 
 
-        </div>
+          </div>
+        </HashRouter>
+        <Footer />
       </div>
     );
   }
 }
 
 export default App;
+
+
+
+

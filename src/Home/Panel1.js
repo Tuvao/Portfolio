@@ -1,5 +1,5 @@
 import React from 'react';
-import me from "../../images/tuva_happy.jpeg";
+import me from "../../public/img/tuva_happy_2.jpeg";
 import "../../CSS/home.css";
 
 
@@ -8,7 +8,8 @@ export const Panel1 = () => {
         <div className="panel-1">
             <div className="text-container">
                 <h1>Hi, I'm Tuva</h1>
-                <p>I am a curios, engaged and driven User Experience Designer and Front End Developer, always looking for new ways to learn. </p>
+                <p className="intro-paragraph">Hi, I’m Tuva. I create pleasant experiences for users, applying <span className="highlight">knowledge</span>, <span className="highlight">empathy</span> and <span className="highlight">curiosity</span>. I easily adapt to any situation and environment, and will never turn down the opportunity to learn. 
+                </p>
             </div>
             <div className="illustration-panel">
                 <div className="image-container">
