@@ -8,7 +8,7 @@ export const Panel1 = () => {
         <div className="panel-1">
             <div className="text-container">
                 <h1>Hi, I'm Tuva</h1>
-                <p className="intro-paragraph">Hi, I’m Tuva. I create pleasant experiences for users, applying <span className="highlight">knowledge</span>, <span className="highlight">empathy</span> and <span className="highlight">curiosity</span>. I easily adapt to any situation and environment, and will never turn down the opportunity to learn. 
+                <p className="intro-paragraph">Hi, I’m Tuva. I desing and program pleasant experiences for users, applying <span className="highlight">knowledge</span>, <span className="highlight">empathy</span> and <span className="highlight">curiosity</span>. I easily adapt to any situation and environment, and will never turn down the opportunity to learn. 
                 </p>
             </div>
             <div className="illustration-panel">

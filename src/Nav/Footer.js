@@ -6,7 +6,7 @@ export const Footer = () => {
     return(
         <div className="footer">
             <div className="">
-                <p>Are you looking for someone who is always inspired, passionate about good user experiences? I'd love to chat with you! 
+                <p>Are you looking for someone who is always passionate about good user experiences and Front End Development? I'd love to chat with you! 
                 </p>
             </div>
             <div>

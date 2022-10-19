@@ -13,9 +13,9 @@ export const MoodInput = ({ addMood, userInput, setUserInput }) => {
         <form className="row">
             <div className="col-12">
                 <div className="form-group">
-                    <label>What mood are you in tonight?</label>
+                    <label>What do you think about when hearing "UX"??</label>
                     <input value={userInput} type="text" className="form-control"
-                         onChange={handleChange} placeholder="Enter mood..."/>
+                         onChange={handleChange} placeholder="Enter word/s..."/>
                 </div>
             </div>
             <div className="col-12">

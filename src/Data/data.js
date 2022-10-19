@@ -11,6 +11,7 @@ import desktopSketchUrban from "../../public/img/projects/desktopSketchUrban.jpg
 import responsiveExampleUrban from "../../public/img/projects/responsiveExampleUrban.jpg";
 import finalUrban from "../../public/img/projects/finalUrban.jpg";
 import brainstormingIRE from "../../public/img/projects/brainstormingIRE.jpg";
+import wordCloudImg from "../../public/img/projects/wordcloud.png";
 import flowWellican from "../../public/img/projects/flowWellican.png";
 import interactionMapWellican from "../../public/img/projects/interactionMapWellican.jpg";
 import sketchesWellican from "../../public/img/projects/sketchesWellican.jpg";
@@ -20,9 +21,9 @@ import dashboard2Wellican from "../../public/img/projects/dashboard2Wellican.jpg
 export const cardData = [
     {
         id: 0,
-        title: "Music Selector",
-        description: "A personal React-project for helping to decide what playlist to play in group settings",
-        src: "",
+        title: "Wordcloud",
+        shortDescription: "A personal React-project to create a wordcloud",
+        src: wordCloudImg,
         url: "dev/music-project"
     },
     {
@@ -158,7 +159,7 @@ export const cardData = [
                     {src: dashboard1Wellican, alt: "One of the screens from the developed prototype"},
                     {src: dashboard2Wellican, alt: "A different screen from the developed prototype"}
                 ],
-                descriptionP2: "Note: Images are small and blury on purpose, because of the confidentiality of the project"
+                descriptionP2: "Note: Project has a confidential nature"
             },
             {
                 id: 4,
