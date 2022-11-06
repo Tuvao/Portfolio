@@ -21,13 +21,20 @@ import dashboard2Wellican from "../../public/img/projects/dashboard2Wellican.jpg
 export const cardData = [
     {
         id: 0,
+        title: "Habit Tracker",
+        shortDescription: "A personal React-project ",
+        src: wordCloudImg,
+        url: "dev/habit-tracker"
+    },
+    {
+        id: 1,
         title: "Wordcloud",
         shortDescription: "A personal React-project to create a wordcloud",
         src: wordCloudImg,
         url: "dev/music-project"
     },
     {
-        id: 1,
+        id: 2,
         title: "InspectRealEstate",
         shortDescription: "Working with IRE's solutions to add on a vital feature.",
         period: "Dec 2020 - now",
@@ -64,7 +71,7 @@ export const cardData = [
         ]
     },
     {
-        id: 2,
+        id: 3,
         title: "Urban Insitute",
         period: "Aug 2020 - Nov 2020",
         shortDescription: "Working with smart-city data to improve city planning with Brisbane City Council",
@@ -124,7 +131,7 @@ export const cardData = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         title: "Wellican Health and Fitness",
         shortDescription: "Working with a startup idea to create an MVP.",
         src: wellican,

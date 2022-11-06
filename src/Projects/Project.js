@@ -17,6 +17,9 @@ export const Project = () => {
                     <Button variant="link" href="/">Go back to home</Button>
                 </div>
                 :
+                project.url === "dev/habit-tracker" ?
+                "Habit Tracker"
+                :
                 project.url === "dev/music-project" ?
                 "Music Project"
                 :

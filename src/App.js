@@ -6,6 +6,7 @@ import {
 import { Home } from './Home/Home';
 import { Footer } from './Nav/Footer';
 import NavBar from './Nav/NavBar';
+import { HabitTracker } from './Projects/HabitTracker/HabitTracker';
 import { MusicProject } from './Projects/MusicProject/MusicProject';
 import { ProjectMain } from './Projects/ProjectMain';
 
@@ -20,6 +21,7 @@ class App extends Component {
             {/* <div className="container"> */}
               <Route path="/projects/:name" component={ProjectMain} />
               <Route path="/projects" component={ProjectMain} />
+              <Route path="/dev/habit-tracker" component={HabitTracker} />
               <Route path="/dev/music-project" component={MusicProject} />
               <Route exact path="/" component={Home} />
             {/* </div> */}
