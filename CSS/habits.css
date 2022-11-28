@@ -1,0 +1,10 @@
+
+.habit-card{
+  min-width: 200px;
+  background-color: #FCFCFC;
+  border-bottom: 4px solid #ffb703;
+}
+
+.star-rating{
+  color: #023047;
+}

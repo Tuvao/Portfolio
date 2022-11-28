@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import { habitData } from '../../Data/data';
+import { Habit } from './Habit';
+import "../../../CSS/habits.css";
 
 export const HabitTracker = () => {
-    const [userInput, setUserInput] = useState("");
+    const [habits, setHabits] = useState(habitData);
 
     return (
         <div className="container">
@@ -9,17 +12,11 @@ export const HabitTracker = () => {
                 <div className='col-12'>
                     <h1>Welcome to your personal habit tracker</h1>
                 </div>
-                <div className='col-12'>
-                    <div className='alert alert-info'>
-                        This page is in progress!
-                    </div>
-                </div>
             </div>
             <div className="row">
-                <div className='col-12'>
-                    <input type="text" value={userInput} onChange={(e) => setUserInput(e.target.value)} />
-                    <button type='button' onClick={() => console.log(userInput)}>Click me</button>
-                </div>
+                {habits.map(habit => {
+                    return <Habit habit={habit} key={habit.ID} />
+                })}
             </div>
         </div >
     )

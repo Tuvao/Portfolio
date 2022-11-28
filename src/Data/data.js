@@ -180,6 +180,35 @@ export const cardData = [
     }
 ];
 
+export const habitData = [
+    {
+        ID: 0,
+        userID: 1,
+        name: 'Meditate More',
+        frequencyGoal: 'Every day', //Move this out later
+        type: 'add', //Move this out later
+        icon: 'yoga'
+    },
+    {
+        ID: 1,
+        userID: 1,
+        name: 'Quit Smoking',
+        frequencyGoal: 'Every day', //Move this out later
+        type: 'remove', //Move this out later
+        icon: 'no-smoking'
+    }
+];
+
+export const habitTracking = [
+    {
+        ID: 0,
+        dateTime: new Date('2022-11-19T23:00:00.000000')
+    },
+    {
+        ID: 0,
+        dateTime: new Date('2022-11-20T13:00:00.000000')
+    }
+];
 
 
 export const urbanInstitute = {};
