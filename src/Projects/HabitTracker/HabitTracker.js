@@ -13,6 +13,9 @@ export const HabitTracker = () => {
                     <h1>Welcome to your personal habit tracker</h1>
                 </div>
             </div>
+
+            <a href="/habit-tracker/add-new">Add New Habit</a>
+
             <div className="row">
                 {habits.map(habit => {
                     return <Habit habit={habit} key={habit.ID} />
