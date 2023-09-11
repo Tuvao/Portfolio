@@ -1,22 +1,22 @@
-import urban from "../../images/projects/UIProject.png";
-import wellican from "../../public/img/projects/wellican.jpg";
-import ganttChartUrban from "../../public/img/projects/ganttChartUrban.jpg";
-import dashboardUrban from "../../public/img/projects/dashboardUrban.jpg";
-import researchPaperUrban from "../../public/img/projects/researchPaperUrban.png";
-import researchPaper2Urban from "../../public/img/projects/researchPaper2Urban.gif";
-import userStoriesUrban from "../../public/img/projects/userStoriesUrban.jpg";
-import mobileSketchUrban from "../../public/img/projects/mobileSketchUrban.jpg";
-import tabletSketchUrban from "../../public/img/projects/tabletSketchUrban.jpg";
-import desktopSketchUrban from "../../public/img/projects/desktopSketchUrban.jpg";
-import responsiveExampleUrban from "../../public/img/projects/responsiveExampleUrban.jpg";
-import finalUrban from "../../public/img/projects/finalUrban.jpg";
-import brainstormingIRE from "../../public/img/projects/brainstormingIRE.jpg";
-import wordCloudImg from "../../public/img/projects/wordcloud.png";
-import flowWellican from "../../public/img/projects/flowWellican.png";
-import interactionMapWellican from "../../public/img/projects/interactionMapWellican.jpg";
-import sketchesWellican from "../../public/img/projects/sketchesWellican.jpg";
-import dashboard1Wellican from "../../public/img/projects/dashboard1Wellican.jpg";
-import dashboard2Wellican from "../../public/img/projects/dashboard2Wellican.jpg";
+//import urban from "../img/projects/UIProject.png";
+import wellican from "../img/projects/wellican.jpg";
+import ganttChartUrban from "../img/projects/ganttChartUrban.jpg";
+import dashboardUrban from "../img/projects/dashboardUrban.jpg";
+import researchPaperUrban from "../img/projects/researchPaperUrban.png";
+import researchPaper2Urban from "../img/projects/researchPaper2Urban.gif";
+import userStoriesUrban from "../img/projects/userStoriesUrban.jpg";
+import mobileSketchUrban from "../img/projects/mobileSketchUrban.jpg";
+import tabletSketchUrban from "../img/projects/tabletSketchUrban.jpg";
+import desktopSketchUrban from "../img/projects/desktopSketchUrban.jpg";
+import responsiveExampleUrban from "../img/projects/responsiveExampleUrban.jpg";
+import finalUrban from "../img/projects/finalUrban.jpg";
+import brainstormingIRE from "../img/projects/brainstormingIRE.jpg";
+import wordCloudImg from "../img/projects/wordcloud.png";
+import flowWellican from "../img/projects/flowWellican.png";
+import interactionMapWellican from "../img/projects/interactionMapWellican.jpg";
+import sketchesWellican from "../img/projects/sketchesWellican.jpg";
+import dashboard1Wellican from "../img/projects/dashboard1Wellican.jpg";
+import dashboard2Wellican from "../img/projects/dashboard2Wellican.jpg";
 
 export const cardData = [
     {
@@ -76,7 +76,7 @@ export const cardData = [
         period: "Aug 2020 - Nov 2020",
         shortDescription: "Working with smart-city data to improve city planning with Brisbane City Council",
         description: "Creating useful and repornsive designs for EneHub and Brisbane City Council through the KX platform. A thesis project and intership Aug 2020 - Nov 2020.",
-        src: urban,
+        src: "", //urban,
         url: "urban-institute",
         role: "User Experience Designer and Front End Developer",
         tags: ["UX", "User needs", "Research", "Responsiveness", "CSS", "KX Platform", "Thesis"],

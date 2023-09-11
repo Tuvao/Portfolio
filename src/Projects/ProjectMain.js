@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router';
-import "../../CSS/projects.css";
+import "../CSS/projects.css";
 import { Panel2 } from '../Home/Panel2';
 import { Project } from './Project';
 

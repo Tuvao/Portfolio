@@ -2,7 +2,7 @@ import React from 'react';
 import Badge from 'react-bootstrap/Badge';
 import Button from 'react-bootstrap/Button';
 import { useParams } from 'react-router';
-import "../../CSS/projects.css";
+import "../CSS/projects.css";
 import { cardData } from '../Data/data';
 
 export const Project = () => {

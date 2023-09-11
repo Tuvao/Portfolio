@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-wrap: break-word;
+}
+.container{
+  margin: auto;
+  margin-bottom: 5em;
+}
+
+.section-heading{
+  margin: 2em 0;
+}
+

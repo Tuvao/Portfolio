@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { habitData } from '../../Data/data';
 import { Habit } from './Habit';
-import "../../../CSS/habits.css";
+import "../../CSS/habits.css";
 
 export const HabitTracker = () => {
     const [habits, setHabits] = useState(habitData);
